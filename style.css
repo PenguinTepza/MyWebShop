@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ขนาดหน้าจอ */
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -43,11 +43,13 @@ nav {
 }
 
 .hero-con {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
+/* ภาพรวมร้าน */
+/* ทั้งกรอบ */
 .hero-info {
-    width: 40%;
+    width: 100%;
     padding: 2rem;
 }
 
@@ -58,16 +60,15 @@ nav {
 .hero-info p {
     margin: 1rem 0;
 }
-
+/* img */
 .hero-img img {
-    padding: 2re;
-    width: 40%;
+    padding: 2rem;
+    width: 50%;
 }
-
+/* หมวดต่างๆ */
 .blog-con {
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 2fr;
+    grid-template-columns: repeat(3,2fr);
     column-gap: 2rem;
 }
 
@@ -76,7 +77,7 @@ nav {
 }
 
 .blog-item img {
-    width: 10remห;
+    width: 100%;
 }
 
 .blog-item h4 {
@@ -93,4 +94,45 @@ nav {
     background-color: rgb(232, 31, 128);
     padding: 0.5rem 1rem;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+}
+
+.footer-top-item-con .date {
+    background-color: #FFEDF8;
+    color: 333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    background-color: cornsilk;
+    padding: 1rem;
+    text-align: center;
 }
