@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 
-    /* ขนาดหน้าจอ */
+        /* ขนาดหน้าจอ320px */
+@media only screen and (max-width: 320px) {
+    header {
+        height: auto;
+    
 }
 .container {
-    max-width: 1140px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -19,9 +23,75 @@ nav {
     justify-content: space-between;
 }
 
-/* 320px */
+.logo a {
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: alicebluecs;
+    text-decoration: none;
+}
+
+    /* ขนาดหน้าจอ480px */
+    @media only screen and (max-width: 480px) {
+        header {
+            height: auto;
+        
+    }
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        padding: 1rem;
+        background-color: #FB6F92;
+    }
+    .nav-con {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo a {
+        font-size: 2rem;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu li {
+        margin: 0 1rem;
+    }
+    
+    .menu li a {
+        color: alicebluecs;
+        text-decoration: none;
+    }
+
+        /* ขนาดหน้าจอ900px */
+@media only screen and (max-width: 900px) {
+    header {
+        height: auto;
+    
+}
+}
 .container {
-    max-width: 1140px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -34,7 +104,32 @@ nav {
     justify-content: space-between;
 }
 
-/* 480px */
+.logo a {
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: alicebluecs;
+    text-decoration: none;
+}
+
+    /* ขนาดหน้าจอ1140px */
+    @media only screen and (max-width: 1140px) {
+        header {
+            height: auto;
+        
+    }
 .container {
     max-width: 1140px;
     margin: 0 auto;
