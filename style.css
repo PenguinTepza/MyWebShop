@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
         /* ขนาดหน้าจอ320px */
 @media only screen and (max-width: 320px) {
     header {
         height: auto;
-    
+    }   
 }
 .container {
     max-width: 320px;
@@ -47,7 +47,7 @@ nav {
     @media only screen and (max-width: 480px) {
         header {
             height: auto;
-        
+        }   
     }
     .container {
         max-width: 480px;
@@ -128,7 +128,7 @@ nav {
     @media only screen and (max-width: 1140px) {
         header {
             height: auto;
-        
+        }   
     }
 .container {
     max-width: 1140px;

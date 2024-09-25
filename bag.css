@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ขนาดหน้าจอ */
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 nav {
     padding: 1rem;
