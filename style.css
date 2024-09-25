@@ -2,8 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* ขนาดหน้าจอ */
 }
-/* ขนาดหน้าจอ */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #FB6F92;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 320px */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #FB6F92;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 480px */
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -96,7 +127,7 @@ nav {
     text-decoration: none;
     border-radius: 5px;
 }
-
+/* กล่องล่าง */
 .footer-top {
     margin-top: 2rem;
     padding: 3rem;
@@ -110,29 +141,22 @@ nav {
     column-gap: 2rem;
 }
 
-.footer-top-item-con {
-    display: flex;
+.footer-top-item  {
+    margin-bottom: 2rem;
 }
 
-.footer-top-item-con .date {
-    background-color: #FFEDF8;
-    color: 333;
-    padding: 0.5rem;
-    border-radius: 5px;
-    text-align: center;
-    margin-right: 10px;
+.footer-top-item:nth-child(2)  {
+    margin-bottom: 2rem;
 }
 
-.footer-top-item:nth-child(2) h4 {
-    margin-bottom: 1rem;
-}
-
-.footer-top-item:nth-child(3) h4 {
-    margin-bottom: 1rem;
+.blog-scr img {
+    width: 50%;
+    
 }
 
 .footer-bottom {
-    background-color: cornsilk;
+    background-color: #FFEDF8;
+    color: #FB6F92;
     padding: 1rem;
     text-align: center;
 }
