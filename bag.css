@@ -1,26 +1,75 @@
-.container {
-    text-align: center;
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
 }
 
 nav {
     padding: 1rem;
-    background-color: #FB6F92;
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
 }
 
 .logo a {
     font-size: 2rem;
-    color: lightcyan;
+    color: aliceblue;
     text-decoration: none;
 }
 
-/* img */
-.blog-item img {
-    padding: 2rem;
-    width: 50%;
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-/* หมวดกระเป๋า */
-.blog-con {
+
+.product-con {
     display: grid;
-    grid-template-columns: repeat(3,3fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     column-gap: 2rem;
+}
+
+.footer-top-item  {
+    margin-bottom: 2rem;
+}
+
+.footer-top-item:nth-child(2)  {
+    margin-bottom: 2rem;
+}
+
+.blog-scr img {
+    width: 50%;
+    
+}
+
+.blog-scr a {
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(232, 31, 128);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    background-color: #FFEDF8;
+    color: #FB6F92;
+    padding: 1rem;
+    text-align: center;
 }
