@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PHONE */
+@media screen and (max-width: 375px){}
+@media screen and (min-width: 376px) and (max-width: 767px){}
+
+/* IPAD */
+@media screen and (min-width: 768px) and (max-width: 1022px){}
+@media screen and (min-width: 1024px) and (max-width: 1440px){}
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) and (max-width: 2559px) {}
+@media screen and (min-width:2560px){}
