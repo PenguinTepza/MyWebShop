@@ -5,7 +5,6 @@
 }
 /* ขนาดหน้าจอ */
 .container {
-    max-width: 375px;
     max-width: 1140px;
     margin: 0 auto;
 }
