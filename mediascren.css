@@ -1,10 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* PHONE */
 @media screen and (max-width: 375px){}
 @media screen and (min-width: 376px) and (max-width: 767px){
     body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    max-width: 375px;
+    margin: 0 auto;
     }
 }
 
