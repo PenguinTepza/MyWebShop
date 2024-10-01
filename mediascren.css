@@ -5,7 +5,11 @@
 }
 
 /* PHONE */
-@media screen and (max-width: 375px){}
+@media screen and (max-width: 375px){
+    body {
+        max-width: 375px;
+    }
+}
 @media screen and (min-width: 376px) and (max-width: 767px){
     body {
     display: grid;
